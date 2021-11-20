@@ -21,21 +21,6 @@ Install other python packages:
 pip install -r requirements.txt
 ```
 
-## Docker Installation
-
-Build the Dockerfile and tag the created image as `gpt-ded`:
-```
-docker build --tag gpt-ded -f Dockerfile.gpu . # or Dockerfile.cpu
-```
-
-Start an interactive bash session from the `gpt-ded` docker image.
-
-You can opt to use the `--runtime=nvidia` flag if you have access to a NVIDIA GPU
-and a valid install of [nvidia-docker 2.0](https://github.com/nvidia/nvidia-docker/wiki/Installation-(version-2.0)).
-```
-docker run --runtime=nvidia -it gpt-ded bash
-```
-
 # Running
 
 | WARNING: Samples are unfiltered and may contain offensive content. |
