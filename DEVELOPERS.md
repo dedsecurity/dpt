@@ -34,7 +34,7 @@ to override the standard stream settings in UTF-8 mode.
 
 ## Sample generation
 
-To generate samples from the small model:
+To generate samples of the small model:
 ```
 python src/generate_text.py
 ```
