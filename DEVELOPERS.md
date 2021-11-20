@@ -5,7 +5,7 @@ Git clone this repository, and `cd` into directory for remaining commands
 git clone https://github.com/dedsecurity/gpt-ded && cd gpt-ded
 ```
 
-## Installation
+## Native Installation
 
 Install tensorflow
 ```
