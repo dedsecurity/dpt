@@ -5,11 +5,7 @@ Git clone this repository, and `cd` into directory for remaining commands
 git clone https://github.com/dedsecurity/gpt-ded && cd gpt-ded
 ```
 
-Then, follow instructions for either native or Docker installation.
-
-## Native Installation
-
-All steps can optionally be done in a virtual environment using tools such as `virtualenv` or `conda`.
+## Installation
 
 Install tensorflow
 ```
