@@ -32,30 +32,9 @@ export PYTHONIOENCODING=UTF-8
 ```
 to override the standard stream settings in UTF-8 mode.
 
-## Unconditional sample generation
+## Sample generation
 
-To generate unconditional samples from the small model:
+To generate samples from the small model:
 ```
-python3 src/generate_unconditional_samples.py | tee /tmp/samples
-```
-There are various flags for controlling the samples:
-```
-python3 src/generate_unconditional_samples.py --top_k 40 --temperature 0.7 | tee /tmp/samples
-```
-
-To check flag descriptions, use:
-```
-python3 src/generate_unconditional_samples.py -- --help
-```
-
-## Conditional sample generation
-
-To give the model custom prompts, you can use:
-```
-python3 src/interactive_conditional_samples.py --top_k 40
-```
-
-To check flag descriptions, use:
-```
-python3 src/interactive_conditional_samples.py -- --help
+python src/generate_text.py
 ```
