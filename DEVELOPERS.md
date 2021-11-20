@@ -11,18 +11,18 @@ Then, follow instructions for either native or Docker installation.
 
 All steps can optionally be done in a virtual environment using tools such as `virtualenv` or `conda`.
 
-Install tensorflow 1.12 (with GPU support, if you have a GPU and want everything to run faster)
+Install tensorflow
 ```
-pip3 install tensorflow==1.12.0
+pip install tensorflow
 ```
 or
 ```
-pip3 install tensorflow-gpu==1.12.0
+pip install tensorflow-gpu
 ```
 
 Install other python packages:
 ```
-pip3 install -r requirements.txt
+pip install -r requirements.txt
 ```
 
 ## Docker Installation
