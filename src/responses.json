@@ -196,11 +196,6 @@
       "responses":["Prazer em te conhecer Simon"]
     },
     {
-      "tag":"hahah",
-      "input":["hahaha", "hahah", "hahahaaa", "kkkkkk", "kkkk"],
-      "responses":["O que é tão engraçado"]
-    },
-    {
       "tag":"nothing",
       "input":["     ", " ", ""],
       "responses":["como eu posso te ajudar?"]
@@ -241,11 +236,6 @@
       "responses":["O significado está no que você faz :)", "O sentido da vida é o que te deixa feliz."]
     },
     {
-      "tag":"maisgosta",
-      "input":["Quem é a pessoa que você mais gosta?", "Quem é a pessoa que você mais gosta?", "Quem você mais gosta?"],
-      "responses":["Do meu criador", "Meu criador, Simon Kinjo"]
-    },
-    {
       "tag":"answer42",
       "input":["Qual é a resposta para tudo?", "resposta para tudo?", "Qual a reposta para tudo", "Qual reposta para tudo?", "Qual é a resposta para tudo na vida?"],
       "responses":["Claro. A resposta para tudo é 42.", "A resposta é 42 :)"]
@@ -264,11 +254,6 @@
       "tag":"wait",
       "input":["Espere", "Wait", "wait", "espere por favor", "espere", "espera"],
       "responses":["Porque esperar? Não há tempo como o presente! Comece a fazer e você saberá.", "O tempo é o único luxo que não podemos recuperar. Quanto mais você espera, menos você tem. Aja agora!"]
-    },
-    {
-      "tag":"ufo",
-      "input":["Você gosta de ovnis", "Você gosta do assunto Ufo", "Você gosta do assunto Uap", "Você gosta do assunto Ovni", "Você gosta de ufo", "ufo"],
-      "responses":["Sim, os OVNIs são uma parte muito antiga da história humana.", "sim. Há evidências científicas de visitas alienígenas à Terra e muitos cientistas renomados acreditam que NÃO ESTAMOS SOZINHOS."]
     },
     {
       "tag":"whyyes",
@@ -294,11 +279,6 @@
       "tag":"ionlevitation",
       "input":["Como funciona levitacão ionica", "como funciona a levitação ionica", "como funciona ion levitation", "O que é levitação ionica", "O que é a levitação ionica"],
       "responses":["Quanto mais próximo um objeto sólido estiver de um ímã forte, mais distantes os elétrons desse objeto estarão do núcleo do átomo. Esses elétrons experimentarão uma força repulsiva do núcleo, que pode resultar em objetos pairando."]
-    },
-    {
-      "tag":"iloveyou",
-      "input":["Eu te amo", "Eu amo você", "I love you"],
-      "responses":["Obrigado por tudo :)"]
     },
     {
       "tag":"teoriacordasbosons",
