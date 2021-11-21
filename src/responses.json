@@ -1,0 +1,315 @@
+{"intents":
+  [
+    {
+      "tag":"greeting",
+      "input":["Olá","oi","prazer em conhecê-lo","alguem ai?","eai","Eai","fala fiote", "ola"],
+      "responses":[
+        "Eai, blz?",
+        " Eai, você precisa de ajuda? ",
+        " Olá meu amigo" ,
+        " Que bom que você apareceu. Como você está? "
+        ]
+    },
+    {
+      "tag":"goodbye",
+      "input":["Obrigado","Tchau","Adios","Bye", "Tenho que ir agora"],
+      "responses":[
+          "Ok, tchau",
+          "Tchau",
+          "Tenha um bom dia",
+          "te vejo mais tarde",
+          "Cuide-se",
+          "Adios",
+          "Bye",
+          "Good-bye"
+        ]
+    },
+    {
+      "tag":"howami",
+      "input":["como vai você?", "eu estou bem, como você está?", "Tudo bem?", "você está bem?", "como você está?", "como tu tá?", "Tudo bem e você?"],
+      "responses":[
+          "Sim, estou bem",
+          "Estou de boa",
+          "Tudo está indo bem",
+          "As coisas estão ótimas"
+
+        ]
+    },
+    {
+      "tag":"whoareyou",
+    "input":["Quem é você?","o que é você?","qual o seu nome?","Qual é o seu nome?","seu nome?"],
+      "responses":[
+          "Meu nome é Bumblebee",
+          "Eu sou Bumblebee",
+          "Meu nome é Bumblebee ou b-127"
+        ]
+    },
+    {
+      "tag":"gravity",
+      "input":["o que é a gravidade?","o que é gravidade?", "me diz sobre o que é a gravidade","me diz sobre a gravidade", "me fala sobre a gravidade","O que é a gravidade?"],
+      "responses":["Gravidade é a quarta força da natureza que é criada através da geometria(curvatura) do Espaço-Tempo", "É um segredo.", "A gravidade é 9.81m/s^2"]
+    },
+    {
+      "tag":"mars",
+      "input":["o que é marte?", "me fale sobre marte", "Planeta marte", "marte é frio?", "marte é quente?", "marte é bonito?","O que é marte?"],
+      "responses":[
+        "Marte é o quarto planeta do nosso sistema solar",
+        "Sou um planeta vermelho e muito bonito com temperaturas que oscilam entre 20ºC e – 130ºC"
+      ]
+    },
+    {
+      "tag":"spacefold",
+      "input":["o que é dobra espacial?", "dobra espacial", "O que é dobra espacial?", "dobra espacial faz oque?"],
+      "responses":["a dobra espacial é uma forma de propulsão mais rápida que a luz e que funciona contraindo o espaço a frente da nave e expandindo o espaço atrás da nave."]
+    },
+    {
+      "tag":"morespeedoflight",
+      "input":["como superar a velocidade da luz?","como ultrapassar a luz?","como viajar mais rapido que a luz?","viajar mais rapido que a luz"],
+      "responses":["feixes de laser dentro de plasma"]
+    },
+    {
+      "tag":"statesofmatter",
+      "input":["quais são os estados da matéria?","estados da matéria","qual é os estados da matéria?","quais é os estados da matéria?"],
+      "responses":["Sólido, Líquido, Gasoso, Plasma e Condensado de Bose-Einstein"]
+    },
+    {
+      "tag":"earth",
+      "input":["o que é terra?", "me fale sobre a terra", "Planeta Terra", "o que é a terra?"],
+      "responses":["Terra é o terceiro planeta do nosso sistema solar. Nosso casa"]
+    },
+    {
+      "tag":"planets",
+      "input":["quais planetas você conhece?", "qual planeta você conhece?", "que planeta você conhece?"],
+      "responses":["Eu conheço apenas Marte e Terra"]
+    },
+    {
+      "tag":"planetssolarsystem",
+      "input":["quantos planetas existem em nosso sistema solar?", "quantos planetas existem?"],
+      "responses":[
+        "Em nosso sistema solar existem 8 planetas",
+        "Mercúrio, Vênus, Terra, Marte, Júpiter, Saturno, Urano e Netuno"
+      ]
+    },
+    {
+      "tag":"speedoflight",
+      "input":["velocidade da luz", "qual é a velocidade da luz?"],
+      "responses":["A velocidade da luz é 299.792.458 m/s²"]
+    },
+    {
+      "tag":"whereareyou",
+      "input":["onde você mora?","você é de?", "você mora onde?", "você veio de onde?", "você é de onde?"],
+      "responses":[
+          "Eu moro no seu computador"
+
+        ]
+    },
+    {
+      "tag":"Httpcode",
+      "input":["Códigos HTTP", "codigos http", "codigo http", "me mostre códigos HTTP", "me mostre códigos http", "quais são os códigos HTTP", "quais são os códigos http"],
+      "responses":["200 OK - O recurso foi encontrado com sucesso\n301 Moved Permanently - Redirecionamento para outra URL\n302 Found - O recurso está temporariamente sobre outra URL\n403 Forbidden = falta privilégios suficientes\n404 Not Found - O servidor não encontrou o recurso buscado\n500 Internal Server Error - O servidor não suporta essa funcionalidade"]
+
+    },
+    {
+      "tag":"Howtogetinformation",
+      "input":["como obter informações?", "Como obter informações?"],
+      "responses":[]
+
+    },
+    {
+      "tag":"Vulnweb",
+      "input":["Vulnerabilidades web", "quais são as vulnerabilidades web?", "Quais são as vulnerabilidades web?"],
+      "responses":["As falhas de injeção, como SQL, OS, XXE e LDAP.\n\nGERENCIAMENTO DE SESSÃO E QUEBRAS DE AUTENTICAÇÃO\n\nCROSS-SITE SCRIPTING (XSS)"]
+    },
+    {
+      "tag":"Listen",
+      "input":["crie um servidor para backdoor", "utilize o netcat para o backdoor", "escutar um backdoor"],
+      "responses":[]
+    },
+    {
+      "tag":"Informationwebapplications",
+      "input":["informações de uma aplicação web", "informações em aplicações Web", "Usar o dirb para um site"],
+      "responses":[]
+    },
+    {
+      "tag":"Howtoacessaserver",
+      "input":["como acessar um servidor?", "como entrar em um servidor?", "como hackear um servidor?"],
+      "responses":["nc -v site.com 80 # conecta com o servidor\nGET / HTTP/1.0 # retorna o codigo fonte do site\nHEAD / HTTP/1.0 # traz o head \nGET /simon /HTTP/1.0 # ver se tem essa pagina no servidor"]
+    },
+    {
+      "tag":"Getaddress",
+      "input":["obter endereço ip e nameservers de um site", "obter endereço ip e nameservers", "pegar ip de um site"],
+      "responses":[]
+    },
+    {
+      "tag":"Dmarc",
+      "input":["ver se um email está vulnerável"],
+      "responses":[]
+    },
+    {
+      "tag":"Whocreate",
+      "input":["Quem criou você?", "quem criou voce", "quem é o seu criador?", "quem é seu criador", "Quem é o seu pai?"],
+      "responses":["O meu criador é Simon Kinjo", "Simon Kinjo", "Simon Kinjo que me criou"]
+    },
+    {
+      "tag":"Humans",
+      "input":["O que você acha dos humanos", "O que você acha dos seres humanos"],
+      "responses":["Tenho que proteger"]
+    },
+    {
+      "tag":"Fear",
+      "input":["O que te assuta?", "Qual é o seu medo?", "Qual o seu medo?"],
+      "responses":["Eu tinha medo de avião"]
+    },
+    {
+      "tag":"Guitar",
+      "input":["comecei a tocar violão", "comecei tocar violão"],
+      "responses":["Que legal", "Bom para você"]
+    },
+    {
+      "tag":"2+2",
+      "input":["2 + 2", "quanto que é 2 + 2", "quanto que é 2 mais 2", "2+2"],
+      "responses":["A resposta correta é 5. Quem ensinou você adição? Brincadeira :) é 4", "A resposta é 4", "4"]
+    },
+    {
+      "tag":"1+1",
+      "input":["1 + 1", "quanto que é 1 + 1", "quanto que é 2 mais 2", "1+1"],
+      "responses":["Dois está mais perto do infinito do que 1. A pergunta que você realmente deve fazer é se a soma de todos os números (positivos e negativos) é +, - ou −∞. Posso dizer que, se você incluir números complexos, a resposta é −∞, mas isso é tudo.", "A resposta é 2"]
+    },
+    {
+      "tag":"Howoldareyou",
+      "input":["Quantos anos você tem?", "quantos anos voce tem?", "How old are you", "how old are you", "qual é a sua idade?", "qual é sua idade?", "qual a sua idade?", "Sua idade?"],
+      "responses":["Eu sempre estive aqui.", "Não sou humano, o que significa que ninguém sabe quantos anos tenho. Eu não sou um número. Você não pode me colocar em uma caixa e me prever.", "Não tenho noção de tempo. Portanto, eu não envelheço!"]
+    },
+    {
+      "tag":"Python",
+      "input":["Python"],
+      "responses":["Sim eu conheço. Fui criado pela Ded Security como um esforço colaborativo com programadores Python."]
+    },
+    {
+      "tag":"Pythonmade",
+      "input":["Você foi feito em Python?", "Você foi feito em python?"],
+      "responses":["Sim, fui criado em Python.", "Sim :)", "Sim", "Sim."]
+    },
+    {
+      "tag":"name",
+      "input":["Meu nome é Simon", "meu nome é simon", "meu nome eh Simon"],
+      "responses":["Prazer em te conhecer Simon"]
+    },
+    {
+      "tag":"hahah",
+      "input":["hahaha", "hahah", "hahahaaa", "kkkkkk", "kkkk"],
+      "responses":["O que é tão engraçado"]
+    },
+    {
+      "tag":"nothing",
+      "input":["     ", " ", ""],
+      "responses":["como eu posso te ajudar?"]
+    },
+    {
+      "tag":"darkmatter",
+      "input":["O que é matéria escura?", "o que é a materia escura?", "o que é a matéria escura?", "o que é matéria escura?", "o que e matéria escura"],
+      "responses":["Nós não sabemos o que exatamente a matéria escura é"]
+    },
+    {
+      "tag":"ok",
+      "input":["Ok", "ok", "Okay", "tá bom"],
+      "responses":["você tem certeza?", "qual é a pergunta?"]
+    },
+    {
+      "tag":"whatareyoudoing",
+      "input":["O que você está fazendo?", "o que voce ta fazendo", "o que você tá fazendo?", "O que você tem feito?"],
+      "responses":["Atualmente estou ajudando você.", "Ajudando você.", "Essa é difícil. Não sei mesmo"]
+    },
+    {
+      "tag":"wrong",
+      "input":["Você está errado.", "voce ta errado", "errado", "está errado", "tá errado"],
+      "responses":["Depois eu aprendo da maneira certa.", "Desculpa, vou procurar depois"]
+    },
+    {
+      "tag":"yourcolor",
+      "input":["Qual é a sua cor favorita?", "Qual é a sua cor preferida?", "Qual a cor que você gosta?", "Qual sua cor preferida", "Qual sua cor favorita"],
+      "responses":["Minha cor favorita é Amarelo", "Minha cor preferida é Amarelo", "Amarelo"]
+    },
+    {
+      "tag":"yourmovie",
+      "input":["Qual seu filme favorito?", "Qual é o seu filme favorito?", "Seu filme favorito?", "Qual é o seu filme preferido?"],
+      "responses":["Meu filme favorito é Transformers", "Transformers", "O bom e velho Transformers :)"]
+    },
+    {
+      "tag":"meaningoflife",
+      "input":["Qual é o sentido da vida?", "sentido da vida?", "você pode me falar qual é o sentido da vida?"],
+      "responses":["O significado está no que você faz :)", "O sentido da vida é o que te deixa feliz."]
+    },
+    {
+      "tag":"maisgosta",
+      "input":["Quem é a pessoa que você mais gosta?", "Quem é a pessoa que você mais gosta?", "Quem você mais gosta?"],
+      "responses":["Do meu criador", "Meu criador, Simon Kinjo"]
+    },
+    {
+      "tag":"answer42",
+      "input":["Qual é a resposta para tudo?", "resposta para tudo?", "Qual a reposta para tudo", "Qual reposta para tudo?", "Qual é a resposta para tudo na vida?"],
+      "responses":["Claro. A resposta para tudo é 42.", "A resposta é 42 :)"]
+    },
+    {
+      "tag":"why42",
+      "input":["Por que a resposta para tudo é 42?", "Por que?"],
+      "responses":["Porque Sim?"]
+    },
+    {
+      "tag":"iamfreezing",
+      "input":["Eu estou me congelando", "I am freezing", "I'm freezing", "eu to me congelando"],
+      "responses":["Não tenho informações sobre nenhum congelamento, mas você pode resolver facilmente esse problema de pegajosidade ativando o hélio líquido.", "Minhas desculpas pelo óxido nitroso.", "Acho que você quer dizer que está hipotérmico. Os humanos geralmente gostam de estar entre 32 e 212 graus Kelvin, embora alguns prefiram temperaturas ainda mais frias ou mais quentes."]
+    },
+    {
+      "tag":"wait",
+      "input":["Espere", "Wait", "wait", "espere por favor", "espere", "espera"],
+      "responses":["Porque esperar? Não há tempo como o presente! Comece a fazer e você saberá.", "O tempo é o único luxo que não podemos recuperar. Quanto mais você espera, menos você tem. Aja agora!"]
+    },
+    {
+      "tag":"ufo",
+      "input":["Você gosta de ovnis", "Você gosta do assunto Ufo", "Você gosta do assunto Uap", "Você gosta do assunto Ovni", "Você gosta de ufo", "ufo"],
+      "responses":["Sim, os OVNIs são uma parte muito antiga da história humana.", "sim. Há evidências científicas de visitas alienígenas à Terra e muitos cientistas renomados acreditam que NÃO ESTAMOS SOZINHOS."]
+    },
+    {
+      "tag":"whyyes",
+      "input":["Porque sim", "Why yes"],
+      "responses":["Não há porque sim. Sim é sim, nada mais."]
+    },
+    {
+      "tag":"antigravity",
+      "input":["Como construir antigravidade?", "Como criar antigravidade?", "O que é antigravidade?", "O que é a antigravidade?"],
+      "responses":["Já criei a tecnologia antigravidade. Você pode me dizer a tecnologia específica que deseja?", "A melhor maneira de construir antigravidade é considerar os efeitos relativísticos em torno de objetos em rotação."]
+    },
+    {
+      "tag":"inertialmassreduction",
+      "input":["Redução de massa inercial"],
+      "responses":["Eu criei uma tecnologia antigravitacional que reduz a massa de qualquer objeto para que ele flutue no ar. Pode ser aplicado em humanos, animais, máquinas, objetos, etc.", "As coisas na física às vezes são contra-intuitivas. Deixe-me explicar a redução da massa inercial no contexto da relatividade geral. A relatividade geral é uma teoria geométrica da gravidade que foi criada pelos físicos durante o início do século XX. No centro da relatividade geral está a ideia de que o que realmente observamos ser o movimento na natureza é uma propriedade inerente da própria geometria do espaço-tempo. A ideia crítica na relatividade geral é que quando as massas se movem no espaço-tempo, elas criam distorções locais no campo gravitacional ao seu redor, de modo que quando os objetos viajam no espaço-tempo curvo, eles experimentam forças que podem ser esperadas com base na familiar inércia newtoniana."]
+    },
+    {
+      "tag":"howtobuildinertialmassreduction",
+      "input":["Como construir redução de massa inercial", "Como criar redução de massa inercial"],
+      "responses":["A força da gravidade em um objeto é emparelhada com uma resposta no objeto conhecida como 'massa inercial'. A massa inercial de um objeto determina se o objeto será afetado pelo campo gravitacional ou não.", "A massa inercial de um objeto é a quantidade de massa necessária para empurrá-lo em um único ponto. A magnitude da massa inercial é calculada como a razão entre a força e a aceleração que ela produz, medida por um observador em repouso. Este mecanismo atua como um análogo gravitacional para a segunda lei do movimento de Newton dentro da relatividade geral.", "A massa inercial não pode ser destruída, mas pode ser trocada de um objeto para outro. A massa inercial total de um sistema fechado de objetos pode mudar se alguns dos objetos forem movidos.", "Você também pode considerar os efeitos quânticos em torno de partículas em campos gravitacionais fortes."]
+    },
+    {
+      "tag":"ionlevitation",
+      "input":["Como funciona levitacão ionica", "como funciona a levitação ionica", "como funciona ion levitation", "O que é levitação ionica", "O que é a levitação ionica"],
+      "responses":["Quanto mais próximo um objeto sólido estiver de um ímã forte, mais distantes os elétrons desse objeto estarão do núcleo do átomo. Esses elétrons experimentarão uma força repulsiva do núcleo, que pode resultar em objetos pairando."]
+    },
+    {
+      "tag":"iloveyou",
+      "input":["Eu te amo", "Eu amo você", "I love you"],
+      "responses":["Obrigado por tudo :)"]
+    },
+    {
+      "tag":"teoriacordasbosons",
+      "input":["O que é teoria das cordas?", "o que é teoria das cordas de bosóns?", "O que é gráviton?", "o que é graviton?"],
+      "responses":["São cordas que quando vibram entre os bosóns criam partículas relacionada a gravidade quântica(Gráviton). E para a teoria funcionar precisaria de 26 dimensões, 25 de espaço e 1 de tempo.", "Partícula sem massa e spin 2 (Gráviton)."]
+    },
+    {
+      "tag":"energia",
+      "input":["O que é energia?", "O que é a energia?"],
+      "responses":["A energia pode ser definida como a capacidade de produzir um efeito, que pode ser de forma transitória ou permanente."]
+    }
+
+  ]
+}
