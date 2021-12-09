@@ -38,3 +38,12 @@ To generate samples of the small model:
 ```
 python src/generate_text.py
 ```
+
+## Bee model (Chatbot)
+```
+python src/Bee.py
+```
+## Token model
+```
+python src/model_token.py
+```
