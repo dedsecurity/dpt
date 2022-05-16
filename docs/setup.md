@@ -1,10 +1,5 @@
 # Setup
 
-We rely on the following external repositories:
-* https://github.com/ngoyal2707/Megatron-LM/tree/fairseq_v2
-* https://github.com/NVIDIA/apex
-* https://github.com/facebookresearch/fairscale.git
-
 ## Install PyTorch
 ```
 pip3 install torch==1.10.1+cu113 torchvision==0.11.2+cu113 torchaudio==0.10.1+cu113 -f https://download.pytorch.org/whl/cu113/torch_stable.html
