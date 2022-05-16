@@ -1,4 +1,5 @@
 # Dpt
+A codebase for working with [Ded Pre-trained Transformers](projects/DPT).
 
 ## Using DPT with 🤗 Transformers
 
