@@ -1,6 +1,6 @@
 # Dpt (Ded Security Pre-trained Transformers)
 
-## Using OPT with 🤗 Transformers
+## Using DPT with 🤗 Transformers
 
 The DPT 125M model are now available in [HuggingFace Transformers](https://huggingface.co/DedsecurityAI/dpt-125mb).
 
