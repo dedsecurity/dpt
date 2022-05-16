@@ -26,10 +26,10 @@ cd fairscale
 git checkout prefetch_fsdp_params_simple
 pip3 install -e .
 ```
-## Install metaseq
+## Install dpt
 ```
-git clone https://github.com/facebookresearch/metaseq.git
-cd metaseq
+git clone https://github.com/dedsecurity/dpt.git
+cd dpt
 pip3 install -e .
 
 # turn on pre-commit hooks
