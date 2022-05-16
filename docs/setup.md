@@ -1,10 +1,5 @@
 # Setup
 
-We rely on the following external repositories:
-* https://github.com/ngoyal2707/Megatron-LM/tree/fairseq_v2
-* https://github.com/NVIDIA/apex
-* https://github.com/facebookresearch/fairscale.git
-
 ## Install PyTorch
 ```
 pip3 install torch==1.10.1+cu113 torchvision==0.11.2+cu113 torchaudio==0.10.1+cu113 -f https://download.pytorch.org/whl/cu113/torch_stable.html
@@ -31,10 +26,10 @@ cd fairscale
 git checkout prefetch_fsdp_params_simple
 pip3 install -e .
 ```
-## Install metaseq
+## Install dpt
 ```
-git clone https://github.com/facebookresearch/metaseq.git
-cd metaseq
+git clone https://github.com/dedsecurity/dpt.git
+cd dpt
 pip3 install -e .
 
 # turn on pre-commit hooks
